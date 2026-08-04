@@ -24,7 +24,7 @@ window.SITE_CONTENT = {
       role: "Ingegneria delle Telecomunicazioni / Software QA Specialist",
       ctaPrimary: "Scrivimi",
       ctaSecondary: "Scarica il CV",
-      cvHref: "assets/Mariano_Casaburi_CV_IT.pdf",
+      cvHref: "assets/IT_agosto26_CV_MarianoCasaburi.pdf",
       sectionLabel: "Esplora il profilo",
       cards: [
         { key: "about", n: "01", title: "Chi sono", desc: "15 anni nell'IT tra test, sviluppo e formazione." },
