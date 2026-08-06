@@ -188,7 +188,7 @@ window.SITE_CONTENT = {
       role: "Telecommunications Engineering / Software QA Specialist",
       ctaPrimary: "Get in touch",
       ctaSecondary: "Download CV",
-      cvHref: "assets/EN_august26_CV_MarianoCasaburi.pdf",
+      cvHref: "assets/Mariano_Casaburi_CV_EN.pdf",
       sectionLabel: "Explore the profile",
       cards: [
         { key: "about", n: "01", title: "About", desc: "15 years in IT across testing, development and training." },
