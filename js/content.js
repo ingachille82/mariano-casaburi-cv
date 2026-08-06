@@ -42,7 +42,7 @@ window.SITE_CONTENT = {
       subtitle: "Percorso professionale e attitudine al lavoro.",
       paragraphs: [
         "Lavoro nel settore IT da circa 15 anni. Ho ricoperto svariate posizioni: Tester, Scrum Master, Developer, Technical Writer.",
-        "Contemporaneamente, ho conseguito la Laurea Specialistica in Ingegneria delle Telecomunicazioni pur essendo lavoratore Full Time.",
+        "Contemporaneamente, ho conseguito la Laurea Specialistica in Ingegneria delle Telecomunicazioni pur essendo lavoratore full time.",
         "Amo la cultura STEM e tenermi aggiornato su ciò che riguarda scienza e tecnologie. Ho duttilità e propensione al risultato.",
         "Sul luogo di lavoro cerco sempre di avere una forte empatia con chi mi è intorno ed amo condividere le conoscenze che ho.",
       ],
