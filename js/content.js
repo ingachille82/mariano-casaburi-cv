@@ -46,15 +46,6 @@ window.SITE_CONTENT = {
         "Amo la cultura STEM e tenermi aggiornato su ciò che riguarda scienza e tecnologie. Ho duttilità e propensione al risultato.",
         "Sul luogo di lavoro cerco sempre di avere una forte empatia con chi mi è intorno ed amo condividere le conoscenze che ho.",
       ],
-      subtitle: "Il mio percorso di studi",
-      paragraphs: [
-        "Ho conseguito la maturità scientifica nel 2000 presso il liceo G. Rummo di Benevento. L'anno prima ho potuto prendere parte ad un viaggio-studio con la E.F. a Cambridge U.K. conseguendo una votazione finale di 'Upper Intermediate' ",
-        "Dopo la maturità ho avviato i miei studi universitari presso Unisannio a Benevento, Facoltà di Ingegneria delle Telecomunicazioni.", 
-        "Il settore satellitare inizia ad affascinarmi molto",
-        "Dopo i primi anni difficili, sono arrivato alla Laurea Triennale nel 2008 con una votazione di 93/110 e una tesi dedicata ai sensori MODIS della NASA per rilevazione di incendi da satellite.",
-        "Proseguo gli studi per la specialistica presso lo stesso ateneo. Dopo il primo anno, mi viene proposto un contratto di lavoro presso la Microgame S.p.a. ed inizia così la mia carriera lavorativa.",
-        "Cerco di proseguire gli studi pur lavorando full-time. Poi nel 2025 ho conseguito la Laurea Specialistica con una votazione di 103/110. La tesi fu dedicata al trasferimento di energia solare da satellite.",  
-      ],
       extra: { label: "Patente", value: "Tipo B" },
     },
     experience: {
