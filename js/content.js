@@ -39,15 +39,20 @@ window.SITE_CONTENT = {
     about: {
       eyebrow: "Chi sono",
       title: "Su di me",
-      subtitle: "Percorso professionale e attitudine al lavoro.",
-      paragraphs: [
+
+      sections: [
+        {
+        subtitle: "Percorso professionale e attitudine al lavoro.",
+        paragraphs: [
         "Lavoro nel settore IT da circa 15 anni. Ho ricoperto svariate posizioni: Tester, Scrum Master, Developer, Technical Writer.",
         "Contemporaneamente, ho conseguito la Laurea Specialistica in Ingegneria delle Telecomunicazioni pur essendo lavoratore Full Time.",
         "Amo la cultura STEM e tenermi aggiornato su ciò che riguarda scienza e tecnologie. Ho duttilità e propensione al risultato.",
         "Sul luogo di lavoro cerco sempre di avere una forte empatia con chi mi è intorno ed amo condividere le conoscenze che ho.",
-      ],
-      subtitle: "Il mio percorso di studi.",
-      paragraphs: [
+          ]
+        },
+        {
+        subtitle: "Il mio percorso di studi.",
+        paragraphs: [
         "Ho conseguito la maturità scientifica nel 2000 presso il liceo G. Rummo di Benevento. L'anno prima ho potuto prendere parte ad un viaggio-studio con la E.F. a Cambridge (U.K.) conseguendo una votazione finale di 'Upper Intermediate' ",
         "Dopo la maturità ho avviato i miei studi universitari presso Unisannio a Benevento, Facoltà di Ingegneria delle Telecomunicazioni.", 
         "Il settore satellitare inizia ad affascinarmi molto",
@@ -55,7 +60,9 @@ window.SITE_CONTENT = {
         "Proseguo gli studi per la specialistica presso lo stesso ateneo. Dopo il primo anno, mi viene proposto un contratto di lavoro presso la Microgame S.p.a. ed inizia così la mia carriera lavorativa.",
         "Cerco di proseguire gli studi pur lavorando full-time, ma la precarietà mi porta ad investire maggiore tempo nel lavoro. Solo nel 2025 ho conseguito la Laurea Specialistica con una votazione di 103/110. La tesi fu dedicata al trasferimento di energia solare da satellite.", 
         "Nel 2022 ho conseguito la certificazione ISTQB Foundation Level, sui fondamenti del testing per la qualità del software.", 
-      ],
+        ]
+      }
+    ],
       extra: { label: "Patente", value: "Tipo B" },
     },
     experience: {
