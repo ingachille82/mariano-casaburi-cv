@@ -47,6 +47,19 @@ window.SITE_CONTENT = {
         "Sul luogo di lavoro cerco sempre di avere una forte empatia con chi mi è intorno ed amo condividere le conoscenze che ho.",
       ],
       extra: { label: "Patente", value: "Tipo B" },
+            sections: [
+        // Esempio — duplica questo blocco per ogni nuova sezione:
+         {
+           subtitle: "Esperienze come QA Spcecialist / Software Test Engineer",
+           paragraphs: [
+             "Da Aprile 2024 ricopro il ruolo di QA Specialist per Aruba, su un progetto per la Commissione Europea.",
+             "Il progetto richiedeva una figura che si occupasse di definire procedure di test di componente (test per singola inferfaccia o singola API), oltre ad implementare Suite di test manuali e automatizzate.",
+             "Ad ogni Sprint (approccio Scrum Agile, con sprint di 3 settimane) viene definito il Test Plan progettando e scrivendo i test case necessari per le Use Stories, i Task e i Bug in essere.",
+             "Al Test Plan suddetto viene affiancato un altro Plan di implementazione di scenari di test da automatizzare. La scelta viene fatta in base alle aree funzionali di maggior criticità per il business, che necessitano frequente uso di Regression Test.",
+             ""
+           ],
+         }
+      ],
     },
     experience: {
       eyebrow: "Percorso",
