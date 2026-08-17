@@ -52,7 +52,7 @@ window.SITE_CONTENT = {
          {
            subtitle: "Esperienze come QA Spcecialist / Software Test Engineer",
            paragraphs: [
-             "Da Aprile 2024 ricopro il ruolo di QA Specialist per Aruba, sul progetto SIMPL per la Commissione Europea, https://simpl-programme.ec.europa.eu/dashboard/home.",
+             "Da Aprile 2024, presso la Alten Italia, ricopro il ruolo di QA Specialist per Aruba, sul progetto SIMPL per la Commissione Europea, https://simpl-programme.ec.europa.eu/dashboard/home.",
              "Il progetto richiedeva una figura che si occupasse di definire procedure di test di componente (test per singola inferfaccia o singola API), oltre ad implementare Suite di test manuali e automatizzate.",
              "Ad ogni Sprint (approccio Scrum Agile, con sprint di 3 settimane) viene definito il Test Plan progettando e scrivendo i test case necessari per le Use Stories, i Task e i Bug in essere. Tutti i test sono scritti in sintassi Gherkin.",
              "Al Test Plan suddetto viene affiancato un altro Plan di implementazione di scenari di test da automatizzare per avere una valida Suite di Regression Test. La scelta degli scenari da automatizzare viene fatta in base alle aree funzionali (es. Onboarding, Authentication) oppure in base alle possibilità tecniche.",
@@ -233,7 +233,7 @@ window.SITE_CONTENT = {
          {
            subtitle: "Experience as a QA Specialist / Software Test Engineer",
            paragraphs: [
-            "Since April 2024, I have been a QA Specialist for Aruba on the SIMPL project for the European Commission, https://simpl-programme.ec.europa.eu/dashboard/home.",
+            "Since April 2024, at Alten Italia, I have been a QA Specialist for Aruba on the SIMPL project for the European Commission, https://simpl-programme.ec.europa.eu/dashboard/home.",
             "The project required a person responsible for defining component testing procedures (testing for a single interface or API), as well as implementing manual and automated test suites.",
             "At each Sprint (Scrum Agile approach, with 3-week sprints), the Test Plan is defined by designing and writing the necessary test cases for the Use Stories, Tasks, and Bugs in progress. All tests are written in Gherkin syntax.",
             "The aforementioned Test Plan is supported by another Plan for the implementation of test scenarios to be automated to create a valid Regression Test Suite. The scenarios to be automated are chosen based on functional areas (e.g., Onboarding, Authentication) or based on technical possibilities.",
