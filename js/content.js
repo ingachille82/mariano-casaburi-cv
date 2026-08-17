@@ -228,6 +228,23 @@ window.SITE_CONTENT = {
         "In the workplace, I always try to build strong empathy with the people around me and I enjoy sharing what I know.",
       ],
       extra: { label: "Driving licence", value: "Category B" },
+      sections: [
+        // Esempio — duplica questo blocco per ogni nuova sezione:
+         {
+           subtitle: "Experience as a QA Specialist / Software Test Engineer",
+           paragraphs: [
+            "Since April 2024, I have been a QA Specialist for Aruba on the SIMPL project for the European Commission, https://simpl-programme.ec.europa.eu/dashboard/home.",
+            "The project required a person responsible for defining component testing procedures (testing for a single interface or API), as well as implementing manual and automated test suites.",
+            "At each Sprint (Scrum Agile approach, with 3-week sprints), the Test Plan is defined by designing and writing the necessary test cases for the Use Stories, Tasks, and Bugs in progress. All tests are written in Gherkin syntax.",
+            "The aforementioned Test Plan is supported by another Plan for the implementation of test scenarios to be automated to create a valid Regression Test Suite. The scenarios to be automated are chosen based on functional areas (e.g., Onboarding, Authentication) or based on technical possibilities.",
+            "The activity The management of all test objects (Test Plan, Test Case, Test Execution, Traceability Test Report) is performed using Jira/XRay.",
+            "Automated tests are implemented in Java, using frameworks such as Cucumber and Playwright, and are executed in Continuous Integration (CI/CD) pipelines. Specific tags are defined to execute test cases by priority, functional area, or test level (component, integration).",
+            "After the automated tests are executed, execution reports (allure) are produced and shared with the development team and stakeholders. The allure report must show a 100% success rate for each sprint.",
+            "Allure tests related to Stories, Tasks, and Bugs for the current sprint are all executed by the end of the Sprint and must have a 100% success rate.",
+            "Approximately 2 years into the project, the total number of test cases to be managed is approximately 2,000."
+           ],
+         }
+      ],
     },
     experience: {
       eyebrow: "Career",
