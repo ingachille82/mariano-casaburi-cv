@@ -52,11 +52,15 @@ window.SITE_CONTENT = {
          {
            subtitle: "Esperienze come QA Spcecialist / Software Test Engineer",
            paragraphs: [
-             "Da Aprile 2024 ricopro il ruolo di QA Specialist per Aruba, su un progetto per la Commissione Europea.",
+             "Da Aprile 2024 ricopro il ruolo di QA Specialist per Aruba, sul progetto SIMPL per la Commissione Europea, https://simpl-programme.ec.europa.eu/dashboard/home.",
              "Il progetto richiedeva una figura che si occupasse di definire procedure di test di componente (test per singola inferfaccia o singola API), oltre ad implementare Suite di test manuali e automatizzate.",
-             "Ad ogni Sprint (approccio Scrum Agile, con sprint di 3 settimane) viene definito il Test Plan progettando e scrivendo i test case necessari per le Use Stories, i Task e i Bug in essere.",
-             "Al Test Plan suddetto viene affiancato un altro Plan di implementazione di scenari di test da automatizzare. La scelta viene fatta in base alle aree funzionali di maggior criticità per il business, che necessitano frequente uso di Regression Test.",
-             ""
+             "Ad ogni Sprint (approccio Scrum Agile, con sprint di 3 settimane) viene definito il Test Plan progettando e scrivendo i test case necessari per le Use Stories, i Task e i Bug in essere. Tutti i test sono scritti in sintassi Gherkin.",
+             "Al Test Plan suddetto viene affiancato un altro Plan di implementazione di scenari di test da automatizzare per avere una valida Suite di Regression Test. La scelta degli scenari da automatizzare viene fatta in base alle aree funzionali (es. Onboarding, Authentication) oppure in base alle possibilità tecniche.",
+             "L'attività di gestione di tutti gli oggetti di test (Test Plan, Test Case, Test Execution, Traceability Test Report) viene svolta con l'ausilio di Jira / XRay.",
+             "I test automatizzati vengono implementati in Java, con l'ausilio di framework come Cucumber e Playwright, e sono eseguiti in pipeline di Continuous Integration (CI/CD). Vengono definiti dei tag specifici in modo da eseguire i Test Case per priorità, area funzionale o livello di test (componente, integrazione).",
+             "A valle della esecuzione dei test automatici, vengono prodotti report di esecuzione (allure), che vengono condivisi con il team di sviluppo e gli Stakeholders. Il report allure deve presentare, ad ogni sprint, una percentuale di successo del 100%.",
+             "I test relativi alle Storie, ai Task e ai Bug relativi allo sprint in essere sono eseguiti tutti entro la fine dello Sprint e devono avere un tasso di succcesso del 100%.",
+             "A circa 2 anni dall'inizio del progetto, il totale di Test Case da gestire è circa 2000."
            ],
          }
       ],
