@@ -123,6 +123,12 @@
       <div class="prose">
         ${a.paragraphs.map((p) => `<p>${esc(p)}</p>`).join("")}
       </div>
+      ${(a.sections || []).map((s) => `
+        <h2 class="about-subhead">${esc(s.subtitle)}</h2>
+        <div class="prose">
+          ${s.paragraphs.map((p) => `<p>${esc(p)}</p>`).join("")}
+        </div>
+      `).join("")}
       <div class="card" style="margin-top:8px; max-width:280px;">
         <h3>${esc(a.extra.label)}</h3>
         <p style="margin:0; color:var(--text-muted);">${esc(a.extra.value)}</p>
