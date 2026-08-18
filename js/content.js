@@ -50,10 +50,11 @@ window.SITE_CONTENT = {
             sections: [
         // Esempio — duplica questo blocco per ogni nuova sezione:
          {
-           subtitle: "Esperienze come QA Spcecialist / Software Test Engineer",
+           subtitle: "Esperienza come QA Specialist / Software Test Engineer presso Alten Italia",
            paragraphs: [
-             "Da Aprile 2024, presso la Alten Italia, ricopro il ruolo di QA Specialist per Aruba, sul progetto SIMPL per la Commissione Europea, https://simpl-programme.ec.europa.eu/dashboard/home.",
+             "Da Aprile 2024 ricopro il ruolo di QA Specialist per Aruba, sul progetto SIMPL per la Commissione Europea, https://simpl-programme.ec.europa.eu/dashboard/home.",
              "Il progetto richiedeva una figura che si occupasse di definire procedure di test di componente (test per singola inferfaccia o singola API), oltre ad implementare Suite di test manuali e automatizzate.",
+             "Nel primo anno di progetto, ho condotto l'attività da solo. In seguito l'attività di automazione dei test è stata distribuita tra me e i developers.",
              "Ad ogni Sprint (approccio Scrum Agile, con sprint di 3 settimane) viene definito il Test Plan progettando e scrivendo i test case necessari per le Use Stories, i Task e i Bug in essere. Tutti i test sono scritti in sintassi Gherkin.",
              "Al Test Plan suddetto viene affiancato un altro Plan di implementazione di scenari di test da automatizzare per avere una valida Suite di Regression Test. La scelta degli scenari da automatizzare viene fatta in base alle aree funzionali (es. Onboarding, Authentication) oppure in base alle possibilità tecniche.",
              "L'attività di gestione di tutti gli oggetti di test (Test Plan, Test Case, Test Execution, Traceability Test Report) viene svolta con l'ausilio di Jira / XRay.",
@@ -61,6 +62,16 @@ window.SITE_CONTENT = {
              "A valle della esecuzione dei test automatici, vengono prodotti report di esecuzione (allure), che vengono condivisi con il team di sviluppo e gli Stakeholders. Il report allure deve presentare, ad ogni sprint, una percentuale di successo del 100%.",
              "I test relativi alle Storie, ai Task e ai Bug relativi allo sprint in essere sono eseguiti tutti entro la fine dello Sprint e devono avere un tasso di succcesso del 100%.",
              "A circa 2 anni dall'inizio del progetto, il totale di Test Case da gestire è circa 2000."
+           ],
+         },
+         // Esempio — duplica questo blocco per ogni nuova sezione:
+         {
+           subtitle: "Software Test Engineer / Scrum Master / Docente / Software Developer presso E.M.M. Informatica",
+           paragraphs: [
+             "Nel Novembre 2015 mi trasferisco da Benevento (dove abitavo ormai da 30 anni) a Napoli per lavorare come Software Test Engineer presso E.M.M. Informatica, azienda di consulenza IT.",
+             "Nel primo anno ho ricoperto il ruolo di Sviluppatore Software, dedicandomi allo sviluppo di API in Java su un applicazione basata su microservizi. Mi dedico anche allo sviluppo du test unitari con JUnit e scopro di avere una forte attitudine al testing.",
+             "L'anno successivo, per il progetto Walgreens (azienda americana di retail farmaceutico), parte il progetto di Test Automation. Entro in un team composto da 4 elementi.", 
+             "Acquisisco il ruolo di Software Automation Tester. Mi occupo di implementare i test automatizzati in Java con Cucumber e Selenium, di eseguire i test manuali e automatizzati, di produrre report di esecuzione e di analizzare i risultati dei test."
            ],
          }
       ],
@@ -231,10 +242,11 @@ window.SITE_CONTENT = {
       sections: [
         // Esempio — duplica questo blocco per ogni nuova sezione:
          {
-           subtitle: "Experience as a QA Specialist / Software Test Engineer",
+           subtitle: "Experience as a QA Specialist / Software Test Engineer at Alten Italia",
            paragraphs: [
-            "Since April 2024, at Alten Italia, I have been a QA Specialist for Aruba on the SIMPL project for the European Commission, https://simpl-programme.ec.europa.eu/dashboard/home.",
+            "Since April 2024, I have been a QA Specialist for Aruba on the SIMPL project for the European Commission, https://simpl-programme.ec.europa.eu/dashboard/home.",
             "The project required a person responsible for defining component testing procedures (testing for a single interface or API), as well as implementing manual and automated test suites.",
+            "During the first year of the project, the activity was carried out by myself. Subsequently, all test automation tasks were distributed within me and the developers.",
             "At each Sprint (Scrum Agile approach, with 3-week sprints), the Test Plan is defined by designing and writing the necessary test cases for the Use Stories, Tasks, and Bugs in progress. All tests are written in Gherkin syntax.",
             "The aforementioned Test Plan is supported by another Plan for the implementation of test scenarios to be automated to create a valid Regression Test Suite. The scenarios to be automated are chosen based on functional areas (e.g., Onboarding, Authentication) or based on technical possibilities.",
             "The activity The management of all test objects (Test Plan, Test Case, Test Execution, Traceability Test Report) is performed using Jira/XRay.",
