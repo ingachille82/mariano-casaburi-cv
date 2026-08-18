@@ -255,6 +255,16 @@ window.SITE_CONTENT = {
             "Allure tests related to Stories, Tasks, and Bugs for the current sprint are all executed by the end of the Sprint and must have a 100% success rate.",
             "Approximately 2 years into the project, the total number of test cases to be managed is approximately 2,000."
            ],
+         },
+         // Esempio — duplica questo blocco per ogni nuova sezione:
+         {
+           subtitle: "Software Test Engineer / Scrum Master / Teacher / Software Developer at E.M.M. Informatica",
+           paragraphs: [
+            "In November 2015, I moved from Benevento (where I had lived for 30 years) to Naples to work as a Software Test Engineer at E.M.M. Informatica, an IT consulting firm.",
+            "In my first year, I worked as a Software Developer, focusing on Java API development for a microservices-based application. I also worked on unit testing with JUnit and discovered I had a strong aptitude for testing.",
+            "The following year, a Test Automation project began for the Walgreens project (an American pharmaceutical retail company). I joined a team of four.",
+            "I took on the role of Software Automation Tester. I was responsible for implementing automated tests in Java with Cucumber and Selenium, running manual and automated tests, producing execution reports, and analyzing test results."
+           ],
          }
       ],
     },
