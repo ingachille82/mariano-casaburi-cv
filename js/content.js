@@ -74,7 +74,9 @@ window.SITE_CONTENT = {
              "L'anno successivo, per il progetto Walgreens (azienda americana di retail farmaceutico), parte il progetto di Test Automation. Entro in un team composto da 4 elementi.", 
              "Acquisisco il ruolo di Software Automation Tester. Mi occupo di implementare i test automatizzati in Java con Cucumber e Selenium, di eseguire i test manuali e automatizzati, di produrre report di esecuzione e di analizzare i risultati dei test.",
              "Il suddetto team realizza una solution di Test Automation che viene applicata in modo trasversale a tutti i test di componente delle varie funzionalità dell'applicazione. Il numero di membri sale ad 8 e ne divento supervisore.",
-             "Nel 2016 ogni Test Automation engineer viene allocato su uno Scrum Team del progetto per occuparsi di una specifica area funzionale. Vengo allocato sullo Scrum Team di Supply Chain fino al 2019. Produco test backend, frontend e mobile.",
+             "Nel 2016 ogni Test Automation engineer viene allocato su uno Scrum Team del progetto per occuparsi di una specifica area funzionale. Vengo allocato sullo Scrum Team di Supply Chain fino al 2019. Produco test backend, frontend e mobile che vengono eseguiti in pipeline di Continuous Integration (CI/CD) e producono Allure Report ad ogni Sprint (approccio Scrum Agile con sprint di 2 settimane)",
+             "Contemporaneamente, prendo a gestire anche l'attività di test manuale scrivendo scenari di test in Gherkin e facendo uso di Jira pe rle metriche.",
+             "Dal 2021 l'azienda mi affida anche il ruolo di Docente per la formazione degli stagisti sull'attività di test manuale e automatizzato. ",
            ],
          }
       ],
