@@ -1,5 +1,6 @@
 /* Contenuti del sito, in italiano e inglese.
    main.js legge da qui per popolare le pagine e il menu. */
+   // **********************************************************************************************************************************************ITALIANO
 window.SITE_CONTENT = {
   it: {
     meta: {
@@ -69,9 +70,15 @@ window.SITE_CONTENT = {
            subtitle: "Software Test Engineer / Scrum Master / Docente / Software Developer presso E.M.M. Informatica",
            paragraphs: [
              "Nel Novembre 2015 mi trasferisco da Benevento (dove abitavo ormai da 30 anni) a Napoli per lavorare come Software Test Engineer presso E.M.M. Informatica, azienda di consulenza IT.",
-             "Nel primo anno ho ricoperto il ruolo di Sviluppatore Software, dedicandomi allo sviluppo di API in Java su un applicazione basata su microservizi. Mi dedico anche allo sviluppo du test unitari con JUnit e scopro di avere una forte attitudine al testing.",
+             "Nel primo anno ho ricoperto il ruolo di Sviluppatore Software, dedicandomi allo sviluppo di API in Java su un applicazione basata su microservizi. Mi dedico anche allo sviluppo di test unitari con JUnit e scopro di avere una forte attitudine al testing.",
              "L'anno successivo, per il progetto Walgreens (azienda americana di retail farmaceutico), parte il progetto di Test Automation. Entro in un team composto da 4 elementi.", 
-             "Acquisisco il ruolo di Software Automation Tester. Mi occupo di implementare i test automatizzati in Java con Cucumber e Selenium, di eseguire i test manuali e automatizzati, di produrre report di esecuzione e di analizzare i risultati dei test."
+             "Acquisisco il ruolo di Software Automation Tester. Mi occupo di implementare i test automatizzati in Java con Cucumber e Selenium, di eseguire i test manuali e automatizzati, di produrre report di esecuzione e di analizzare i risultati dei test.",
+             "Il suddetto team realizza una solution di Test Automation che viene applicata in modo trasversale a tutti i test di componente delle varie funzionalità dell'applicazione. Il numero di membri sale ad 8 e ne divento supervisore.",
+             "Nel 2016 ogni Test Automation engineer viene allocato su uno Scrum Team del progetto per occuparsi di una specifica area funzionale. Vengo allocato sullo Scrum Team di Supply Chain fino al 2019. Produco test backend, frontend e mobile che vengono eseguiti in pipeline di Continuous Integration (CI/CD) e producono Allure Report ad ogni Sprint (approccio Scrum Agile con sprint di 2 settimane)",
+             "Contemporaneamente, prendo a gestire anche l'attività di test manuale scrivendo scenari di test in Gherkin e facendo uso di Jira pe rle metriche.",
+             "Dal 2021 l'azienda mi affida anche il ruolo di Docente per la formazione degli stagisti sull'attività di test manuale e automatizzato. ",
+             "I corsi erano finalizzati a definire i primi approcci all'Analisi dei Requisiti, alla Scrittura Sceari di Test con uso della sintassi Gherkin. Per avviare gli stagisti all'attività di test API, si tennero lezioni sull'uso di Postman e la struttura base delle chiamate REST. Per l'Automazione dei Test, si teneveno prima corsi sulle basi Java e poi sull'uso di Selenium e classi Java per le chiamate REST",
+             "Alla fine di ogni corso gli stagisti hanno sostenuto un test finale per verificare le conoscenze acquisite. Sul totale di stagisti che hanno seguito i corsi, circa il 90% ha superato il test finale ed è stato inserito in azienda.",
            ],
          }
       ],
@@ -192,7 +199,7 @@ window.SITE_CONTENT = {
       ],
     },
   },
-
+// **********************************************************************************************************************************************ENGLISH
   en: {
     meta: {
       name: "Mariano Casaburi",
