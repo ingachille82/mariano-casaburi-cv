@@ -77,6 +77,8 @@ window.SITE_CONTENT = {
              "Nel 2016 ogni Test Automation engineer viene allocato su uno Scrum Team del progetto per occuparsi di una specifica area funzionale. Vengo allocato sullo Scrum Team di Supply Chain fino al 2019. Produco test backend, frontend e mobile che vengono eseguiti in pipeline di Continuous Integration (CI/CD) e producono Allure Report ad ogni Sprint (approccio Scrum Agile con sprint di 2 settimane)",
              "Contemporaneamente, prendo a gestire anche l'attività di test manuale scrivendo scenari di test in Gherkin e facendo uso di Jira pe rle metriche.",
              "Dal 2021 l'azienda mi affida anche il ruolo di Docente per la formazione degli stagisti sull'attività di test manuale e automatizzato. ",
+             "I corsi erano finalizzati a definire i primi approcci all'Analisi dei Requisiti, alla Scrittura Sceari di Test con uso della sintassi Gherkin. Per avviare gli stagisti all'attività di test API, si tennero lezioni sull'uso di Postman e la struttura base delle chiamate REST. Per l'Automazione dei Test, si teneveno prima corsi sulle basi Java e poi sull'uso di Selenium e classi Java per le chiamate REST",
+             "Alla fine di ogni corso gli stagisti hanno sostenuto un test finale per verificare le conoscenze acquisite. Sul totale di stagisti che hanno seguito i corsi, circa il 90% ha superato il test finale ed è stato inserito in azienda.",
            ],
          }
       ],
