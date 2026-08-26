@@ -41,7 +41,8 @@
 
     const links = PAGES.map((p) => {
       const active = p.key === current ? " active" : "";
-      return `<a href="${p.href}" class="${active.trim()}">${esc(t.nav[p.key])}</a>`;
+      const badge = p.key === "experience" ? ` <span class="nav-badge">S.T.A.R.</span>` : "";
+      return `<a href="${p.href}" class="${active.trim()}">${esc(t.nav[p.key])}${badge}</a>`;
     }).join("");
 
     navEl.innerHTML = `
@@ -98,7 +99,7 @@
             return `<a class="orbit-card" href="${page.href}">
               <span class="orbit-index">${esc(c.n)}</span>
               <span class="orbit-arrow">↗</span>
-              <h3>${esc(c.title)}</h3>
+              <h3>${esc(c.title)}${c.badge ? ` <span class="nav-badge">${esc(c.badge)}</span>` : ""}</h3>
               <p>${esc(c.desc)}</p>
             </a>`;
           }).join("")}
@@ -143,6 +144,12 @@
       <div class="org">${esc(e.org)}</div>
       <p>${esc(e.desc)}</p>
       ${e.link ? `<a class="ext" href="${esc(e.link.url)}" target="_blank" rel="noopener">${esc(e.link.label)} ↗</a>` : ""}
+      ${e.star ? `<div class="star-block">
+        <div class="star-row"><span class="star-tag">S</span><p>${esc(e.star.situation)}</p></div>
+        <div class="star-row"><span class="star-tag">T</span><p>${esc(e.star.task)}</p></div>
+        <div class="star-row"><span class="star-tag">A</span><p>${esc(e.star.action)}</p></div>
+        <div class="star-row"><span class="star-tag">R</span><p>${esc(e.star.result)}</p></div>
+      </div>` : ""}
       ${e.exams ? `<details class="exam-toggle"><summary>${window.__examsLabel}</summary><div class="exam-list">${esc(e.exams)}</div></details>` : ""}
     </div>`;
   }
@@ -151,6 +158,12 @@
     const x = t.experience;
     return `<section class="wrap">
       ${pageHead(x)}
+      ${x.starLegend ? `<div class="star-legend">
+        <span class="star-legend-title">${esc(x.starLegend.title)}</span>
+        <div class="star-legend-items">
+          ${x.starLegend.items.map((i) => `<span class="star-legend-item"><span class="star-tag">${esc(i.tag)}</span>${esc(i.label)}</span>`).join("")}
+        </div>
+      </div>` : ""}
       <div class="timeline">
         ${x.entries.map(entryBlock).join("")}
       </div>

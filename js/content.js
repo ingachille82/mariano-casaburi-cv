@@ -1,6 +1,5 @@
 /* Contenuti del sito, in italiano e inglese.
    main.js legge da qui per popolare le pagine e il menu. */
-   // **********************************************************************************************************************************************ITALIANO
 window.SITE_CONTENT = {
   it: {
     meta: {
@@ -29,7 +28,7 @@ window.SITE_CONTENT = {
       sectionLabel: "Esplora il profilo",
       cards: [
         { key: "about", n: "01", title: "Chi sono", desc: "15 anni nell'IT tra test, sviluppo e formazione." },
-        { key: "experience", n: "02", title: "Esperienza professionale", desc: "Da E.M.M. Informatica ad Alten Italia." },
+        { key: "experience", n: "02", title: "Esperienza professionale", desc: "Da E.M.M. Informatica ad Alten Italia, raccontata in formato S.T.A.R.", badge: "S.T.A.R." },
         { key: "education", n: "03", title: "Istruzione e formazione", desc: "Laurea in Ingegneria delle Telecomunicazioni e certificazioni." },
         { key: "skills", n: "04", title: "Competenze tecniche", desc: "Java, testing automatizzato, BDD, tool e DBMS." },
         { key: "languages", n: "05", title: "Lingue", desc: "Italiano madrelingua, Inglese B2." },
@@ -43,50 +42,35 @@ window.SITE_CONTENT = {
       subtitle: "Percorso professionale e attitudine al lavoro.",
       paragraphs: [
         "Lavoro nel settore IT da circa 15 anni. Ho ricoperto svariate posizioni: Tester, Scrum Master, Developer, Technical Writer.",
-        "Contemporaneamente, ho conseguito la Laurea Specialistica in Ingegneria delle Telecomunicazioni pur essendo lavoratore full time.",
+        "Contemporaneamente, ho conseguito la Laurea Specialistica in Ingegneria delle Telecomunicazioni pur essendo lavoratore Full Time.",
         "Amo la cultura STEM e tenermi aggiornato su ciò che riguarda scienza e tecnologie. Ho duttilità e propensione al risultato.",
         "Sul luogo di lavoro cerco sempre di avere una forte empatia con chi mi è intorno ed amo condividere le conoscenze che ho.",
       ],
       extra: { label: "Patente", value: "Tipo B" },
-            sections: [
+      sections: [
         // Esempio — duplica questo blocco per ogni nuova sezione:
-         {
-           subtitle: "Esperienza come QA Specialist / Software Test Engineer presso Alten Italia",
-           paragraphs: [
-             "Da Aprile 2024 ricopro il ruolo di QA Specialist per Aruba, sul progetto SIMPL per la Commissione Europea, https://simpl-programme.ec.europa.eu/dashboard/home.",
-             "Il progetto richiedeva una figura che si occupasse di definire procedure di test di componente (test per singola inferfaccia o singola API), oltre ad implementare Suite di test manuali e automatizzate.",
-             "Nel primo anno di progetto, ho condotto l'attività da solo. In seguito l'attività di automazione dei test è stata distribuita tra me e i developers.",
-             "Ad ogni Sprint (approccio Scrum Agile, con sprint di 3 settimane) viene definito il Test Plan progettando e scrivendo i test case necessari per le Use Stories, i Task e i Bug in essere. Tutti i test sono scritti in sintassi Gherkin.",
-             "Al Test Plan suddetto viene affiancato un altro Plan di implementazione di scenari di test da automatizzare per avere una valida Suite di Regression Test. La scelta degli scenari da automatizzare viene fatta in base alle aree funzionali (es. Onboarding, Authentication) oppure in base alle possibilità tecniche.",
-             "L'attività di gestione di tutti gli oggetti di test (Test Plan, Test Case, Test Execution, Traceability Test Report) viene svolta con l'ausilio di Jira / XRay.",
-             "I test automatizzati vengono implementati in Java, con l'ausilio di framework come Cucumber e Playwright, e sono eseguiti in pipeline di Continuous Integration (CI/CD). Vengono definiti dei tag specifici in modo da eseguire i Test Case per priorità, area funzionale o livello di test (componente, integrazione).",
-             "A valle della esecuzione dei test automatici, vengono prodotti report di esecuzione (allure), che vengono condivisi con il team di sviluppo e gli Stakeholders. Il report allure deve presentare, ad ogni sprint, una percentuale di successo del 100%.",
-             "I test relativi alle Storie, ai Task e ai Bug relativi allo sprint in essere sono eseguiti tutti entro la fine dello Sprint e devono avere un tasso di succcesso del 100%.",
-             "A circa 2 anni dall'inizio del progetto, il totale di Test Case da gestire è circa 2000."
-           ],
-         },
-         // Esempio — duplica questo blocco per ogni nuova sezione:
-         {
-           subtitle: "Software Test Engineer / Scrum Master / Docente / Software Developer presso E.M.M. Informatica",
-           paragraphs: [
-             "Nel Novembre 2015 mi trasferisco da Benevento (dove abitavo ormai da 30 anni) a Napoli per lavorare come Software Test Engineer presso E.M.M. Informatica, azienda di consulenza IT.",
-             "Nel primo anno ho ricoperto il ruolo di Sviluppatore Software, dedicandomi allo sviluppo di API in Java su un applicazione basata su microservizi. Mi dedico anche allo sviluppo di test unitari con JUnit e scopro di avere una forte attitudine al testing.",
-             "L'anno successivo, per il progetto Walgreens (azienda americana di retail farmaceutico), parte il progetto di Test Automation. Entro in un team composto da 4 elementi.", 
-             "Acquisisco il ruolo di Software Automation Tester. Mi occupo di implementare i test automatizzati in Java con Cucumber e Selenium, di eseguire i test manuali e automatizzati, di produrre report di esecuzione e di analizzare i risultati dei test.",
-             "Il suddetto team realizza una solution di Test Automation che viene applicata in modo trasversale a tutti i test di componente delle varie funzionalità dell'applicazione. Il numero di membri sale ad 8 e ne divento supervisore.",
-             "Nel 2016 ogni Test Automation engineer viene allocato su uno Scrum Team del progetto per occuparsi di una specifica area funzionale. Vengo allocato sullo Scrum Team di Supply Chain fino al 2019. Produco test backend, frontend e mobile che vengono eseguiti in pipeline di Continuous Integration (CI/CD) e producono Allure Report ad ogni Sprint (approccio Scrum Agile con sprint di 2 settimane)",
-             "Contemporaneamente, prendo a gestire anche l'attività di test manuale scrivendo scenari di test in Gherkin e facendo uso di Jira pe rle metriche.",
-             "Dal 2021 l'azienda mi affida anche il ruolo di Docente per la formazione degli stagisti sull'attività di test manuale e automatizzato. ",
-             "I corsi erano finalizzati a definire i primi approcci all'Analisi dei Requisiti, alla Scrittura Sceari di Test con uso della sintassi Gherkin. Per avviare gli stagisti all'attività di test API, si tennero lezioni sull'uso di Postman e la struttura base delle chiamate REST. Per l'Automazione dei Test, si teneveno prima corsi sulle basi Java e poi sull'uso di Selenium e classi Java per le chiamate REST",
-             "Alla fine di ogni corso gli stagisti hanno sostenuto un test finale per verificare le conoscenze acquisite. Sul totale di stagisti che hanno seguito i corsi, circa il 90% ha superato il test finale ed è stato inserito in azienda.",
-           ],
-         }
+        // {
+        //   subtitle: "Titolo della nuova sezione",
+        //   paragraphs: [
+        //     "Primo paragrafo.",
+        //     "Secondo paragrafo, se serve.",
+        //   ],
+        // },
       ],
     },
     experience: {
       eyebrow: "Percorso",
       title: "Esperienza professionale",
-      subtitle: "Ruoli ricoperti e principali responsabilità.",
+      subtitle: "Ruoli ricoperti e principali responsabilità, con i più recenti raccontati anche in formato S.T.A.R.",
+      starLegend: {
+        title: "Formato S.T.A.R.",
+        items: [
+          { tag: "S", label: "Situation — il contesto" },
+          { tag: "T", label: "Task — l'obiettivo" },
+          { tag: "A", label: "Action — le azioni svolte" },
+          { tag: "R", label: "Result — il risultato ottenuto" },
+        ],
+      },
       entries: [
         {
           period: "2024 — Attualmente",
@@ -94,18 +78,36 @@ window.SITE_CONTENT = {
           role: "QA Specialist per Aruba e Commissione Europea",
           desc: "Test Management, Analisi dei Requisiti, Definizione di Test Plan, Design e Scrittura Casi di Test, Automazione Java dei casi di test per il progetto SIMPL della Commissione Europea.",
           link: { label: "simpl-programme.ec.europa.eu", url: "https://simpl-programme.ec.europa.eu/" },
+          star: {
+            situation: "QA Specialist per Aruba sul progetto SIMPL della Commissione Europea, in team Scrum con sprint di 3 settimane.",
+            task: "Definire i test di componente e costruire suite di test manuali e automatizzate, prima in autonomia e poi in coordinamento con i developer.",
+            action: "Test Plan in Gherkin ad ogni sprint, automazione in Java con Cucumber e Playwright su pipeline CI/CD, gestione test su Jira/XRay e reportistica con Allure.",
+            result: "100% di successo sui test di sprint e sui report condivisi con gli stakeholder; suite di regression cresciuta a circa 2.000 test case in due anni.",
+          },
         },
         {
           period: "2015 — 2024",
           org: "E. M. M. INFORMATICA",
           role: "Software Automation Tester per Walgreens",
           desc: "Automazione dei casi di test con Java.",
+          star: {
+            situation: "Ingresso nel progetto di Test Automation per Walgreens (retail farmaceutico USA), in un team iniziale di 4 persone.",
+            task: "Implementare test automatizzati e manuali come Software Automation Tester e, in seguito, supervisionare il team di automazione per l'area Supply Chain.",
+            action: "Test automatizzati in Java con Cucumber e Selenium, report di esecuzione e analisi risultati; crescita del team a 8 persone con ruolo di supervisore; dal 2016 allocato sullo Scrum Team Supply Chain (fino al 2019) con test backend, frontend e mobile su pipeline CI/CD e Allure Report ad ogni sprint (2 settimane).",
+            result: "Solution di Test Automation applicata trasversalmente a tutti i test di componente dell'applicazione, con copertura backend/frontend/mobile e reportistica costante ad ogni sprint.",
+          },
         },
         {
           period: "2021 — 2023",
           org: "E. M. M. INFORMATICA",
           role: "Docente",
           desc: "Attività di docenza per la formazione degli stagisti sull'attività di test manuale e automatizzato.",
+          star: {
+            situation: "Dal 2021 al 2023, ruolo di Docente affiancato all'attività ordinaria, per la formazione degli stagisti su test manuale e automatizzato.",
+            task: "Portare gli stagisti dalle basi dell'Analisi dei Requisiti e della scrittura di scenari di test fino all'automazione, con un test finale di verifica delle competenze.",
+            action: "Corsi su scrittura scenari in sintassi Gherkin, test API con Postman e struttura delle chiamate REST, fondamenti Java, e automazione con Selenium e classi Java per le chiamate REST.",
+            result: "Circa il 90% degli stagisti ha superato il test finale ed è stato inserito in azienda.",
+          },
         },
       ],
       otherLabel: "Altre esperienze",
@@ -199,7 +201,7 @@ window.SITE_CONTENT = {
       ],
     },
   },
-// **********************************************************************************************************************************************ENGLISH
+
   en: {
     meta: {
       name: "Mariano Casaburi",
@@ -227,7 +229,7 @@ window.SITE_CONTENT = {
       sectionLabel: "Explore the profile",
       cards: [
         { key: "about", n: "01", title: "About", desc: "15 years in IT across testing, development and training." },
-        { key: "experience", n: "02", title: "Professional experience", desc: "From E.M.M. Informatica to Alten Italia." },
+        { key: "experience", n: "02", title: "Professional experience", desc: "From E.M.M. Informatica to Alten Italia, told in S.T.A.R. format.", badge: "S.T.A.R." },
         { key: "education", n: "03", title: "Education & training", desc: "Degree in Telecommunications Engineering and certifications." },
         { key: "skills", n: "04", title: "Technical skills", desc: "Java, test automation, BDD, tools and DBMS." },
         { key: "languages", n: "05", title: "Languages", desc: "Native Italian, English B2." },
@@ -247,38 +249,29 @@ window.SITE_CONTENT = {
       ],
       extra: { label: "Driving licence", value: "Category B" },
       sections: [
-        // Esempio — duplica questo blocco per ogni nuova sezione:
-         {
-           subtitle: "Experience as a QA Specialist / Software Test Engineer at Alten Italia",
-           paragraphs: [
-            "Since April 2024, I have been a QA Specialist for Aruba on the SIMPL project for the European Commission, https://simpl-programme.ec.europa.eu/dashboard/home.",
-            "The project required a person responsible for defining component testing procedures (testing for a single interface or API), as well as implementing manual and automated test suites.",
-            "During the first year of the project, the activity was carried out by myself. Subsequently, all test automation tasks were distributed within me and the developers.",
-            "At each Sprint (Scrum Agile approach, with 3-week sprints), the Test Plan is defined by designing and writing the necessary test cases for the Use Stories, Tasks, and Bugs in progress. All tests are written in Gherkin syntax.",
-            "The aforementioned Test Plan is supported by another Plan for the implementation of test scenarios to be automated to create a valid Regression Test Suite. The scenarios to be automated are chosen based on functional areas (e.g., Onboarding, Authentication) or based on technical possibilities.",
-            "The activity The management of all test objects (Test Plan, Test Case, Test Execution, Traceability Test Report) is performed using Jira/XRay.",
-            "Automated tests are implemented in Java, using frameworks such as Cucumber and Playwright, and are executed in Continuous Integration (CI/CD) pipelines. Specific tags are defined to execute test cases by priority, functional area, or test level (component, integration).",
-            "After the automated tests are executed, execution reports (allure) are produced and shared with the development team and stakeholders. The allure report must show a 100% success rate for each sprint.",
-            "Allure tests related to Stories, Tasks, and Bugs for the current sprint are all executed by the end of the Sprint and must have a 100% success rate.",
-            "Approximately 2 years into the project, the total number of test cases to be managed is approximately 2,000."
-           ],
-         },
-         // Esempio — duplica questo blocco per ogni nuova sezione:
-         {
-           subtitle: "Software Test Engineer / Scrum Master / Teacher / Software Developer at E.M.M. Informatica",
-           paragraphs: [
-            "In November 2015, I moved from Benevento (where I had lived for 30 years) to Naples to work as a Software Test Engineer at E.M.M. Informatica, an IT consulting firm.",
-            "In my first year, I worked as a Software Developer, focusing on Java API development for a microservices-based application. I also worked on unit testing with JUnit and discovered I had a strong aptitude for testing.",
-            "The following year, a Test Automation project began for the Walgreens project (an American pharmaceutical retail company). I joined a team of four.",
-            "I took on the role of Software Automation Tester. I was responsible for implementing automated tests in Java with Cucumber and Selenium, running manual and automated tests, producing execution reports, and analyzing test results."
-           ],
-         }
+        // Example — duplicate this block for each new section:
+        // {
+        //   subtitle: "New section title",
+        //   paragraphs: [
+        //     "First paragraph.",
+        //     "Second paragraph, if needed.",
+        //   ],
+        // },
       ],
     },
     experience: {
       eyebrow: "Career",
       title: "Professional experience",
-      subtitle: "Roles held and key responsibilities.",
+      subtitle: "Roles held and key responsibilities, with the most recent also told in S.T.A.R. format.",
+      starLegend: {
+        title: "S.T.A.R. format",
+        items: [
+          { tag: "S", label: "Situation — the context" },
+          { tag: "T", label: "Task — the objective" },
+          { tag: "A", label: "Action — the actions taken" },
+          { tag: "R", label: "Result — the outcome achieved" },
+        ],
+      },
       entries: [
         {
           period: "2024 — Present",
@@ -286,18 +279,36 @@ window.SITE_CONTENT = {
           role: "QA Specialist for Aruba and the European Commission",
           desc: "Test management, requirements analysis, test plan definition, test case design and writing, Java automation of test cases for the European Commission's SIMPL project.",
           link: { label: "simpl-programme.ec.europa.eu", url: "https://simpl-programme.ec.europa.eu/" },
+          star: {
+            situation: "QA Specialist for Aruba on the European Commission's SIMPL project, in a Scrum team with 3-week sprints.",
+            task: "Define component-level testing and build manual and automated test suites, first independently and later in coordination with the developers.",
+            action: "Gherkin Test Plans every sprint, Java automation with Cucumber and Playwright on CI/CD pipelines, test management on Jira/XRay, reporting with Allure.",
+            result: "100% pass rate on sprint tests and stakeholder reports; regression suite grown to roughly 2,000 test cases in two years.",
+          },
         },
         {
           period: "2015 — 2024",
           org: "E. M. M. INFORMATICA",
           role: "Software Automation Tester for Walgreens",
           desc: "Test case automation with Java.",
+          star: {
+            situation: "Joined the Test Automation project for Walgreens (US pharmacy retail), in an initial team of 4 people.",
+            task: "Implement automated and manual tests as Software Automation Tester and, later, supervise the automation team for the Supply Chain area.",
+            action: "Automated tests in Java with Cucumber and Selenium, execution reporting and results analysis; team grew to 8 people with a supervisor role; from 2016, allocated to the Supply Chain Scrum Team (until 2019) with backend, frontend and mobile tests on CI/CD pipelines and Allure Reports every sprint (2-week sprints).",
+            result: "Test Automation solution applied across all component-level tests of the application, with backend/frontend/mobile coverage and consistent reporting every sprint.",
+          },
         },
         {
           period: "2021 — 2023",
           org: "E. M. M. INFORMATICA",
           role: "Trainer",
           desc: "Training activity for interns on manual and automated testing.",
+          star: {
+            situation: "From 2021 to 2023, took on a Trainer role alongside regular duties, training interns in manual and automated testing.",
+            task: "Bring interns from the basics of Requirements Analysis and test scenario writing through to automation, with a final assessment of the skills acquired.",
+            action: "Courses on writing scenarios in Gherkin syntax, API testing with Postman and REST call structure, Java fundamentals, and automation with Selenium and Java classes for REST calls.",
+            result: "About 90% of interns passed the final test and were hired by the company.",
+          },
         },
       ],
       otherLabel: "Other experience",
