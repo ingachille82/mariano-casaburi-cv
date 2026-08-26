@@ -128,6 +128,26 @@ main{ padding-bottom: 96px; }
 .nav-links a:hover{ color: var(--text); background: var(--border-soft); }
 .nav-links a.active{ color: var(--void); background: var(--disk); font-weight: 600; }
 
+.nav-badge{
+  display: inline-block;
+  margin-left: 5px;
+  padding: 1px 7px;
+  border-radius: 999px;
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  background: rgba(255,154,77,0.14);
+  border: 1px solid rgba(255,154,77,0.4);
+  color: var(--disk);
+  vertical-align: middle;
+}
+.nav-links a.active .nav-badge{
+  background: rgba(5,4,10,0.18);
+  border-color: rgba(5,4,10,0.3);
+  color: var(--void);
+}
+
 .nav-right{ display: flex; align-items: center; gap: 10px; }
 
 .lang-toggle{
@@ -431,6 +451,76 @@ main{ padding-bottom: 96px; }
 .exam-toggle{
   margin-top: 10px;
 }
+
+.star-block{
+  margin-top: 16px;
+  padding: 16px 18px;
+  border: 1px solid var(--border-soft);
+  border-left: 2px solid var(--horizon);
+  border-radius: 10px;
+  background: var(--panel-soft);
+  display: grid;
+  gap: 10px;
+}
+
+.star-row{
+  display: grid;
+  grid-template-columns: 26px 1fr;
+  gap: 12px;
+  align-items: start;
+}
+
+.star-tag{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 6px;
+  background: rgba(139,107,255,0.16);
+  border: 1px solid rgba(139,107,255,0.35);
+  color: var(--horizon);
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 600;
+  margin-top: 2px;
+}
+
+.star-row p{
+  margin: 0;
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+
+.star-legend{
+  margin-bottom: 34px;
+  padding: 16px 18px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--panel-soft);
+}
+.star-legend-title{
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--disk);
+  margin-bottom: 12px;
+}
+.star-legend-items{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 22px;
+}
+.star-legend-item{
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.84rem;
+  color: var(--text-muted);
+}
+.star-legend-item .star-tag{ margin-top: 0; }
 .exam-toggle summary{
   cursor: pointer;
   font-family: var(--font-mono);
@@ -515,7 +605,6 @@ main{ padding-bottom: 96px; }
   padding-top: 26px;
   border-top: 1px solid var(--border-soft);
 }
-
 
 .contact-list{ list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
 .contact-list li{
