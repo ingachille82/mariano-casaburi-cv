@@ -17,14 +17,14 @@ window.SITE_CONTENT = {
       projects: "Progetti",
       contact: "Contatti",
     },
-    footer: "Curriculum Vitae — aggiornato ad Agosto 2026",
+    footer: "Curriculum Vitae — aggiornato ad Ottobre 2026",
     home: {
       eyebrow: "Curriculum Vitae",
       title: "Mariano Casaburi",
       role: "Ingegneria delle Telecomunicazioni / Software QA Specialist",
       ctaPrimary: "Scrivimi",
       ctaSecondary: "Scarica il CV",
-      cvHref: "assets/IT_agosto26_CV_MarianoCasaburi.pdf",
+      cvHref: "assets/IT_ottobre26_CV_MarianoCasaburi.pdf",
       sectionLabel: "Esplora il profilo",
       cards: [
         { key: "about", n: "01", title: "Chi sono", desc: "15 anni nell'IT tra test, sviluppo e formazione." },
@@ -241,14 +241,14 @@ window.SITE_CONTENT = {
       projects: "Projects",
       contact: "Contact",
     },
-    footer: "Curriculum Vitae — updated August 2026",
+    footer: "Curriculum Vitae — updated October 2026",
     home: {
       eyebrow: "Curriculum Vitae",
       title: "Mariano Casaburi",
       role: "Telecommunications Engineering / Software QA Specialist",
       ctaPrimary: "Get in touch",
       ctaSecondary: "Download CV",
-      cvHref: "assets/EN_august26_CV_MarianoCasaburi.pdf",
+      cvHref: "assets/EN_october26_CV_MarianoCasaburi.pdf",
       sectionLabel: "Explore the profile",
       cards: [
         { key: "about", n: "01", title: "About", desc: "15 years in IT across testing, development and training." },
