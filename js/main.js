@@ -186,6 +186,16 @@
       <div class="card-grid">
         ${ed.courses.map((c) => `<div class="card"><h3>${esc(c.title)}</h3><p style="margin:0;color:var(--text-muted);">${esc(c.desc)}</p></div>`).join("")}
       </div>
+      ${ed.otherCourses && ed.otherCourses.length ? `
+        <p class="section-label" style="margin-top:36px;">${esc(ed.otherCoursesLabel)}</p>
+        <div class="card-grid">
+          ${ed.otherCourses.map((c) => `<div class="card">
+            <h3>${esc(c.title)}</h3>
+            <p style="margin:0 0 14px;color:var(--text-muted);">${esc(c.desc)}</p>
+            ${c.certHref ? `<a class="btn btn-ghost" style="padding:8px 16px;font-size:0.8rem;" href="${esc(c.certHref)}" target="_blank" rel="noopener" download>${esc(c.certLabel)} ↓</a>` : ""}
+          </div>`).join("")}
+        </div>
+      ` : ""}
     </section>`;
   }
 
