@@ -48,14 +48,36 @@ window.SITE_CONTENT = {
       ],
       extra: { label: "Patente", value: "Tipo B" },
       sections: [
-        // Esempio — duplica questo blocco per ogni nuova sezione:
-        // {
-        //   subtitle: "Titolo della nuova sezione",
-        //   paragraphs: [
-        //     "Primo paragrafo.",
-        //     "Secondo paragrafo, se serve.",
-        //   ],
-        // },
+{
+          subtitle: "Esperienza come QA Specialist / Software Test Engineer presso Alten Italia",
+          paragraphs: [
+            "Da Aprile 2024 ricopro il ruolo di QA Specialist per Aruba, sul progetto SIMPL per la Commissione Europea, https://simpl-programme.ec.europa.eu/dashboard/home.",
+            "Il progetto richiedeva una figura che si occupasse di definire procedure di test di componente (test per singola inferfaccia o singola API), oltre ad implementare Suite di test manuali e automatizzate.",
+            "Nel primo anno di progetto, ho condotto l'attività da solo. In seguito l'attività di automazione dei test è stata distribuita tra me e i developers.",
+            "Ad ogni Sprint (approccio Scrum Agile, con sprint di 3 settimane) viene definito il Test Plan progettando e scrivendo i test case necessari per le Use Stories, i Task e i Bug in essere. Tutti i test sono scritti in sintassi Gherkin.",
+            "Al Test Plan suddetto viene affiancato un altro Plan di implementazione di scenari di test da automatizzare per avere una valida Suite di Regression Test. La scelta degli scenari da automatizzare viene fatta in base alle aree funzionali (es. Onboarding, Authentication) oppure in base alle possibilità tecniche.",
+            "L'attività di gestione di tutti gli oggetti di test (Test Plan, Test Case, Test Execution, Traceability Test Report) viene svolta con l'ausilio di Jira / XRay.",
+            "I test automatizzati vengono implementati in Java, con l'ausilio di framework come Cucumber e Playwright, e sono eseguiti in pipeline di Continuous Integration (CI/CD). Vengono definiti dei tag specifici in modo da eseguire i Test Case per priorità, area funzionale o livello di test (componente, integrazione).",
+            "A valle della esecuzione dei test automatici, vengono prodotti report di esecuzione (allure), che vengono condivisi con il team di sviluppo e gli Stakeholders. Il report allure deve presentare, ad ogni sprint, una percentuale di successo del 100%.",
+            "I test relativi alle Storie, ai Task e ai Bug relativi allo sprint in essere sono eseguiti tutti entro la fine dello Sprint e devono avere un tasso di succcesso del 100%.",
+            "A circa 2 anni dall'inizio del progetto, il totale di Test Case da gestire è circa 2000.",
+          ],
+        },
+        {
+          subtitle: "Software Test Engineer / Scrum Master / Docente / Software Developer presso E.M.M. Informatica",
+          paragraphs: [
+            "Nel Novembre 2015 mi trasferisco da Benevento (dove abitavo ormai da 30 anni) a Napoli per lavorare come Software Test Engineer presso E.M.M. Informatica, azienda di consulenza IT.",
+            "Nel primo anno ho ricoperto il ruolo di Sviluppatore Software, dedicandomi allo sviluppo di API in Java su un applicazione basata su microservizi. Mi dedico anche allo sviluppo di test unitari con JUnit e scopro di avere una forte attitudine al testing.",
+            "L'anno successivo, per il progetto Walgreens (azienda americana di retail farmaceutico), parte il progetto di Test Automation. Entro in un team composto da 4 elementi.",
+            "Acquisisco il ruolo di Software Automation Tester. Mi occupo di implementare i test automatizzati in Java con Cucumber e Selenium, di eseguire i test manuali e automatizzati, di produrre report di esecuzione e di analizzare i risultati dei test.",
+            "Il suddetto team realizza una solution di Test Automation che viene applicata in modo trasversale a tutti i test di componente delle varie funzionalità dell'applicazione. Il numero di membri sale ad 8 e ne divento supervisore.",
+            "Nel 2016 ogni Test Automation engineer viene allocato su uno Scrum Team del progetto per occuparsi di una specifica area funzionale. Vengo allocato sullo Scrum Team di Supply Chain fino al 2019. Produco test backend, frontend e mobile che vengono eseguiti in pipeline di Continuous Integration (CI/CD) e producono Allure Report ad ogni Sprint (approccio Scrum Agile con sprint di 2 settimane).",
+            "Contemporaneamente, prendo a gestire anche l'attività di test manuale scrivendo scenari di test in Gherkin e facendo uso di Jira per le metriche.",
+            "Dal 2021 l'azienda mi affida anche il ruolo di Docente per la formazione degli stagisti sull'attività di test manuale e automatizzato.",
+            "I corsi erano finalizzati a definire i primi approcci all'Analisi dei Requisiti, alla Scrittura Scenari di Test con uso della sintassi Gherkin. Per avviare gli stagisti all'attività di test API, si tennero lezioni sull'uso di Postman e la struttura base delle chiamate REST. Per l'Automazione dei Test, si tenevano prima corsi sulle basi Java e poi sull'uso di Selenium e classi Java per le chiamate REST.",
+            "Alla fine di ogni corso gli stagisti hanno sostenuto un test finale per verificare le conoscenze acquisite. Sul totale di stagisti che hanno seguito i corsi, circa il 90% ha superato il test finale ed è stato inserito in azienda.",
+          ],
+        },
       ],
     },
     experience: {
@@ -264,14 +286,36 @@ window.SITE_CONTENT = {
       ],
       extra: { label: "Driving licence", value: "Category B" },
       sections: [
-        // Example — duplicate this block for each new section:
-        // {
-        //   subtitle: "New section title",
-        //   paragraphs: [
-        //     "First paragraph.",
-        //     "Second paragraph, if needed.",
-        //   ],
-        // },
+{
+          subtitle: "Experience as QA Specialist / Software Test Engineer at Alten Italia",
+          paragraphs: [
+            "Since April 2024 I have been QA Specialist for Aruba, on the SIMPL project for the European Commission, https://simpl-programme.ec.europa.eu/dashboard/home.",
+            "The project required someone to define component-level test procedures (tests for a single interface or single API), as well as implement manual and automated test suites.",
+            "In the first year of the project, I carried out the activity on my own. Later, the test automation work was distributed between me and the developers.",
+            "Every Sprint (Agile Scrum approach, with 3-week sprints) the Test Plan is defined by designing and writing the test cases needed for the Use Stories, Tasks and open Bugs. All tests are written in Gherkin syntax.",
+            "Alongside this Test Plan, a separate plan is maintained for implementing test scenarios to automate, in order to build a solid Regression Test Suite. The scenarios chosen for automation are selected based on functional areas (e.g. Onboarding, Authentication) or on technical feasibility.",
+            "The management of all test artifacts (Test Plan, Test Case, Test Execution, Traceability Test Report) is carried out with the help of Jira / XRay.",
+            "Automated tests are implemented in Java, using frameworks such as Cucumber and Playwright, and run on Continuous Integration (CI/CD) pipelines. Specific tags are defined so that Test Cases can be run by priority, functional area or test level (component, integration).",
+            "After the automated tests run, execution reports (Allure) are produced and shared with the development team and the Stakeholders. The Allure report must show a 100% success rate at every sprint.",
+            "Tests related to the Stories, Tasks and Bugs of the current sprint are all executed by the end of the Sprint and must achieve a 100% pass rate.",
+            "About 2 years into the project, the total number of Test Cases being managed is around 2,000.",
+          ],
+        },
+        {
+          subtitle: "Software Test Engineer / Scrum Master / Trainer / Software Developer at E.M.M. Informatica",
+          paragraphs: [
+            "In November 2015 I moved from Benevento (where I had lived for 30 years) to Naples to work as a Software Test Engineer at E.M.M. Informatica, an IT consulting company.",
+            "In the first year I worked as a Software Developer, building Java APIs on a microservices-based application. I also worked on unit tests with JUnit and discovered a strong aptitude for testing.",
+            "The following year, for the Walgreens project (a US pharmacy retail company), the Test Automation project started. I joined a team of 4 people.",
+            "I took on the role of Software Automation Tester. I was responsible for implementing automated tests in Java with Cucumber and Selenium, running manual and automated tests, producing execution reports and analyzing test results.",
+            "The team built a Test Automation solution applied across all component-level tests for the application's various features. The team grew to 8 people and I became its supervisor.",
+            "In 2016, each Test Automation engineer was allocated to a Scrum Team within the project to focus on a specific functional area. I was assigned to the Supply Chain Scrum Team until 2019. I produced backend, frontend and mobile tests run on Continuous Integration (CI/CD) pipelines, generating Allure Reports every Sprint (Agile Scrum approach with 2-week sprints).",
+            "At the same time, I also took on manual testing activity, writing test scenarios in Gherkin and using Jira for metrics.",
+            "From 2021, the company also entrusted me with the role of Trainer, training interns in manual and automated testing.",
+            "The courses aimed to establish the first approaches to Requirements Analysis and Test Scenario writing using Gherkin syntax. To introduce interns to API testing, lessons covered the use of Postman and the basic structure of REST calls. For Test Automation, courses started with Java fundamentals and moved on to Selenium and Java classes for REST calls.",
+            "At the end of each course, interns took a final test to verify the knowledge acquired. Of all the interns who attended the courses, about 90% passed the final test and were hired by the company.",
+          ],
+        },
       ],
     },
     experience: {
